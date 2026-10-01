@@ -21,7 +21,7 @@ resource "aws_instance" "web" {
     echo "<h1>MERN Application Web Server</h1>" > /var/www/html/index.html
     echo "<p>Deployed using Terraform</p>" >> /var/www/html/index.html
   EOF
-
+                                                                                              
   tags = {
     Name = "MERN-Web-Server"
   }
